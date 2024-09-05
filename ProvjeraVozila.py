@@ -29,7 +29,7 @@ def generiraj_izvjestaj(registracija, vrijeme_ulaska, ima_dozvolu):
     if ima_dozvolu:
         izvjestaj += "Status: Vozilo ima valjanu dozvolu za ulazak.\n"
     else:
-        izvjestaj += "Status: Vozilo NEMA dozvolu za ulazak.\n"
+        izvjestaj += "Status: Vozilo nema dozvolu za ulazak.\n"
     
     # Spremanje izvještaja u datoteku
     with open("izvjestaj.txt", "a") as file:
